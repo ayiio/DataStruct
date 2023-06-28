@@ -1,2 +1,2 @@
-# DataStruct
+# algorithm
 coding
