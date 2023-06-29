@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	arr := [5]int{5, 3, 6, 2, 10}
+	arr := [...]int{5, 3, 6, 2, 10}
 	selectSortT(arr[:])
 }
 
