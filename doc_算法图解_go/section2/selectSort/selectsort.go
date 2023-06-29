@@ -14,7 +14,8 @@ func findSmaller(arr []int) (smaller_index int) {
 
 func SelectSort(arr []int) []int {
 	var newArr []int
-	for i := 0; i < len(arr); i++ {
+	leno := len(arr)
+	for i := 0; i < leno; i++ {
 		smallidx := findSmaller(arr)
 		newArr = append(newArr, arr[smallidx])
 		arr = append(arr[:smallidx], arr[smallidx+1:]...)
